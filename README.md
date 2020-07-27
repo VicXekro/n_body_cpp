@@ -13,14 +13,15 @@ The parallel version was implemented using a combination of MPI and OpenMP. Intu
 <a name="performance"></a>
 ### Perfomance comparison
 The following graphs represents different configuration of MPI-OpenMP implementation Vs the serial implementation.
+
 - For T = 60, delta_t=1s
-![t60](result/t60.png)
+![t60](result/t60.PNG)
 
 - For T = 100, delta_t=1s
-![t100](result/t100.png)
+![t100](result/t100.PNG)
 
 - For T = 300, delta_t=1s
-![t300](result/t300.png)
+![t300](result/t300.PNG)
 
 As we can observe, for our trials, the configuration 5 MPI processors and 6 OpenMP threads outperform the other parallel configurations and the serial implementation. 
 
